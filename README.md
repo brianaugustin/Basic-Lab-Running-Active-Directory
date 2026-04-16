@@ -1,4 +1,4 @@
-# Basic--Lab-Running-Active-Directory
+# Basic-Lab-Running-Active-Directory
 ### Basic  lab running Active Directory with a domain controller and users.
 
 I built a lab by deploying Windows Server 2025 as a Domain Controller for the brian.local forest, configuring it with a static IP of 192.168.204.131. I installed and verified essential roles including Active Directory Domain Services (AD DS) and DNS, then configured Windows 11 client machines to point to the server for name resolution. After confirming connectivity via nslookup and successful pings, I joined the client machines to the domain to enable centralized user management and group policy testing.
